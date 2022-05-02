@@ -10,7 +10,7 @@
 	{%if page.tags %}
 	<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
 	{% else %}
-	<meta name="keywords" content="python, javascript, html, css, theme, modification, jekyll, script"/>
+	<meta name="keywords" content="python, test"/>
 	{%endif %}
     <meta name="theme-color" content="#000000" />
     {% if page.title or page.title == 'me' %}
@@ -21,22 +21,13 @@
 	<link rel="stylesheet" type="text/css" href="/assets/css/atom-one-light.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/001.css">
 	<link rel="canonical" href="{{ site.url }}{{ page.url }}">
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-104409245-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
 </head>
 <body>
 	{{ content }}
 	<hr class="line">
 	<div class="footer">
-		<p>{{ site.url }}; Created by <a href="http://github.com/h01000110" target="_blank">h01000110 (hi)</a>; Code licensed under <a href="https://github.com/h01000110/h01000110.github.io/blob/master/LICENSE" target="_blank">MIT License</a></p>
+		<p>{{ site.url }}; Created by <a href="http://github.com/nikopoulospet" target="_blank">peter</a></p>
 		<p class="counter"></p>
 	</div>
     <script src="/assets/js/003.js"></script>
