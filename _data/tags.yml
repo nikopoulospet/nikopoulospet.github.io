@@ -1,0 +1,50 @@
+adblock:
+  name: adblock
+
+css:
+  name: css
+
+en-us:
+  name: en us
+
+flask:
+  name: flask
+
+javascript:
+  name: javascript
+
+jekyll:
+  name: jekyll
+
+jquery:
+  name: jquery
+
+melhoria:
+  name: melhoria
+
+modification:
+  name: modification
+
+project:
+  name: project
+
+projeto:
+  name: projeto
+
+pt-br:
+  name: pt br
+
+python:
+  name: python
+
+shell-script:
+  name: shell script
+
+svg:
+  name: svg
+
+theme:
+  name: theme
+
+youtube:
+  name: youtube

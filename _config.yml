@@ -1,0 +1,19 @@
+permalink: /:year:month:day/:title
+url: http://nikopoulospet.github.io
+baseurl: /project
+
+# variables
+name: peter
+description: a blog
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true
