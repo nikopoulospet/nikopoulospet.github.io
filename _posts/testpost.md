@@ -1,7 +1,7 @@
 ---
-layout: Post
+layout: post
 title: Test Post
-tags: test
----
+tags: python
+___
 
 # This is a post
